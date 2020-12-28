@@ -25,3 +25,8 @@ print('this is 4 backslash \\\\\\\\')
 
 #output: \" \'
 print(" \\\" \\\' ")
+
+#Raw String:
+#this is a shortcut for using escape characters as normal text
+print(r"line A \n line B")
+#it always prints the same as normal text if we put r first.
