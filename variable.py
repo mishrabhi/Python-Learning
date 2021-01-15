@@ -22,6 +22,8 @@ print(user_one_name)
 userOneName = "Abhishek"
 print(userOneName) 
 
+
+
 #=> You can assign multiple variables in a single line 
 name, age = "Abhishek", "24"
 print("hello my name is " + name + " and my age is " + age)
