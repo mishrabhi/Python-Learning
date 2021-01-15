@@ -11,6 +11,8 @@ print("hello " + name + " " + "your age is " + age + " " + "and you are " + marr
 #=>You can give two inputs in a single line:
 # name= input("enter your name")
 # age= input("enter your age")
-name, age = input("enter your name and age").split()
+name, age = input("enter your name and age ").split()
+#you have to give space between name and age like:
+#enter your name and age Abhishek 23
 print(name)
 print(age)
