@@ -35,3 +35,7 @@ lang = "Python"
 print(lang[0:2])  #//Py
 #output: ytho
 print(lang[1:5])  #//ytho   
+
+print(lang[:]) #//Python (=>If we dont give arguments,it prints everything.)
+print(lang[1:]) #//ython (=>If we only give start argument,it print from start argument to end.)
+print(lang[:4]) #//Pyth  (=>If we only give stop argument,it prints all before that. )
