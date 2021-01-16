@@ -24,3 +24,14 @@ print(language[4]) #//o
 
 print(language[-5]) #//y
 print(language[-3])  #//h
+
+#=> String_slicing
+#when we want to print more than one characters using indexing,then we use string slicing:
+lang = "Python"
+#print(lang[4])  //o
+#syntax - [start argument : stop argument - 1 ]
+
+#output: py
+print(lang[0:2])  #//Py
+#output: ytho
+print(lang[1:5])  #//ytho   
