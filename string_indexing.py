@@ -25,7 +25,10 @@ print(language[4]) #//o
 print(language[-5]) #//y
 print(language[-3])  #//h
 
-#=> String_slicing
+
+
+
+#=> String_slicing:-
 #when we want to print more than one characters using indexing,then we use string slicing:
 lang = "Python"
 #print(lang[4])  //o
@@ -38,4 +41,16 @@ print(lang[1:5])  #//ytho
 
 print(lang[:]) #//Python (=>If we dont give arguments,it prints everything.)
 print(lang[1:]) #//ython (=>If we only give start argument,it print from start argument to end.)
-print(lang[:4]) #//Pyth  (=>If we only give stop argument,it prints all before that. )
+print(lang[:4]) #//Pyth  (=>If we only give stop argument,it prints all before that.)
+
+#We can either use above as this too:
+print("Abhishek"[1:5]) #//bhis 
+
+
+#=>String Argument Slicing:-
+#it is same like string slicing but we can give step to the start and stop arguments.
+#syntax: [start argument : stop argument-1 : step]
+print("Harshit"[0:5:1])  #// Harsh
+print("Harshit"[0:5:2])  #// Hrh 
+print("Abhishek"[0:7:3])  #//Aie
+print("Abhishek"[5::-1])  #//hsihbA
