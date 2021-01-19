@@ -4,8 +4,8 @@ name = "AbhISHeK MIsHra"
 
 # 1.len() function => It counts the character in string.It includes spaces too.
 print(len("Abhishek"))  #//8
-print(len(name))  #//15
-print(len("AbhishekMishra")) #//14
+print(len(name))  #//15  (with space)
+print(len("AbhishekMishra")) #//14  (Without space)
 
 # 2.lower() method => It converts all characters into lower cases.
 print(name.lower())  #// abhishek mishra
