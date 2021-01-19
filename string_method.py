@@ -20,3 +20,15 @@ print(name.title())  #//Abhishek Mishra
 
 # 5.count() method => It counts a particular character in a string.
 print(name.count("H"))  #//2
+
+
+#6.strip() method => It removes spaces from left or right in the string.
+# lstrip() => to remove spaces from left side.
+# rstrip() => to remove spaces from right side.
+place = "     Prayagraj      "
+dots = "................"
+print(place + dots)  #//       Prayagraj     .............
+print(place.lstrip() + dots) #//Prayagraj     ............
+print(place.rstrip() + dots) #//         Prayagraj...........
+print(place.strip() + dots) #//Prayagraj...........
+
