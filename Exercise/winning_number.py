@@ -10,7 +10,7 @@ winning_num = "65"
 guessing_num = (input("guess a number between 50 to 100 "))
 if winning_num == guessing_num:
     print("You win!!")
-else:
+else:   #nested if else statement
     if guessing_num < winning_num:
         print("too low!")
     else:
