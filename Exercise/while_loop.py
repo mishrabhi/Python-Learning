@@ -32,3 +32,31 @@ while i < len(number):
     total += int(number[i])
     i += 1
 print(total)
+
+
+
+# Problem No:3
+# ask a user for name
+# Example: Abhishek Mishra
+# print count of each word
+# output: 
+        # A : 1
+        # b : 1
+        # h : 3
+        # i : 2
+        # s : 2
+        # e : 1
+        # k : 1
+        # M : 1
+        #   : 1
+        # r : 1
+        # a : 1
+
+name = input("enter your full name: ")
+temp_value = ""
+i = 0
+while i < len(name):
+    if name[i] not in temp_value:
+        temp_value += name[i]
+        print(f"{name[i]} : {name.count(name[i])}")
+    i += 1
