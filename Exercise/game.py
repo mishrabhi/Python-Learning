@@ -5,7 +5,7 @@
 # If you have guessed higher than the winning number then it prints too high.
 # It give you unlimited attempts to guess the winning number.
 # It also prints in how many times you have guessed the winning number correctly.
-# It also selects random numbers when you had guessed winning num and trying next time.
+# It also selects random numbers when you had guessed winning num and trying next time. 
 
 import random
 winning_num = random randint(1,100)

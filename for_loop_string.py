@@ -1,4 +1,4 @@
-# for_;oop_string:
+# for_loop_string:
 
 # Method used in all programming languages:
 name = "Abhishek"
