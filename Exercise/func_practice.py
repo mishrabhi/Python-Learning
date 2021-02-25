@@ -27,7 +27,7 @@ print(is_even(7))  #//False
 
 
 # take 2 numbers as input
-# create a function which tells you which one is the greatest number from above inputs.
+# create a function to find the greatest number from above inputs.
 
 
 def greater(a,b):
@@ -41,3 +41,49 @@ first_num = int(input("enter first number : "))
 second_num = int(input("enter second number : "))
 bigger = greater(first_num, second_num)
 print(f"{bigger} is greater")
+
+
+# take 3 numbers as input
+# create a function to find the greatest among them.
+
+def greatest(a,b,c):
+    if a>b and a>c:
+        return a
+    elif b>a and b>c:
+        return b
+    else:
+        return c
+num1 = int(input("enter first number : "))
+num2 = int(input("enter second number : "))
+num3 = int(input("enter third number : "))
+largest = greatest(num1,num2,num3)
+print(f"{largest} is greatest")
+
+
+# Define is_palindrome function that takes one word in string as input.
+# and return true if it is palindrome else return false.
+#palindrome >>>> words that reads same backwards and forwards.
+# example
+# is_palindrome("madam") ---->>> True
+
+# logic (algorithm)
+# step 1 -> reverse the string
+# step 2 -> compare reverse string with original string
+
+def is_palindrome(word):
+    reversed_word =word[::-1]
+    if word == reversed_word:
+        return True
+    else:
+        return False
+
+# def is_palindrome(word):
+    # if word == word[::-1]:
+    #     return True
+    # return False
+
+# def is_palindrome(word):
+#     return word == word[::-1]
+
+print(is_palindrome("naman"))
+print(is_palindrome("horse"))
