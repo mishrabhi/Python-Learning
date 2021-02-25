@@ -30,34 +30,34 @@ print(is_even(7))  #//False
 # create a function to find the greatest number from above inputs.
 
 
-# def greater(a,b):
-#     if a > b:
-#         return a
-#     return b
-#     # else:
-#     #     return b
+def greater(a,b):
+    if a > b:
+        return a
+    return b
+    # else:
+    #     return b
 
-# first_num = int(input("enter first number : "))
-# second_num = int(input("enter second number : "))
-# bigger = greater(first_num, second_num)
-# print(f"{bigger} is greater")
+first_num = int(input("enter first number : "))
+second_num = int(input("enter second number : "))
+bigger = greater(first_num, second_num)
+print(f"{bigger} is greater")
 
 
 # take 3 numbers as input
 # create a function to find the greatest among them.
 
-# def greatest(a,b,c):
-#     if a>b and a>c:
-#         return a
-#     elif b>a and b>c:
-#         return b
-#     else:
-#         return c
-# num1 = int(input("enter first number : "))
-# num2 = int(input("enter second number : "))
-# num3 = int(input("enter third number : "))
-# largest = greatest(num1,num2,num3)
-# print(f"{largest} is greatest")
+def greatest(a,b,c):
+    if a>b and a>c:
+        return a
+    elif b>a and b>c:
+        return b
+    else:
+        return c
+num1 = int(input("enter first number : "))
+num2 = int(input("enter second number : "))
+num3 = int(input("enter third number : "))
+largest = greatest(num1,num2,num3)
+print(f"{largest} is greatest")
 
 
 # Define is_palindrome function that takes one word in string as input.
