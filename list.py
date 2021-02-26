@@ -43,5 +43,28 @@ print(fruits3)    #// ['mango', 'orange', 'grapes', 'apple']
 fruits1 = ['mango', 'orange']
 fruits2 = ['grapes', 'apple']
 fruits1.extend(fruits2)
-print(fruits1)
-print(fruits2)
+print(fruits1)  #// ['mango', 'orange', 'grapes', 'apple']
+print(fruits2)  #// ['grapes', 'apple']
+
+
+# common methods to delete data from lists:
+# pop method -->> it deletes data from last in the list.
+
+fruits5 = ['orange', 'apple', 'banana', 'pear', 'kiwi']
+fruits5.pop()
+print(fruits5)  #// ['orange', 'apple', 'banana', 'pear']
+fruits5.pop(1)
+print(fruits5)   #// ['orange', 'banana', 'pear', 'kiwi']
+
+
+# del
+rivers = ['ganga', 'yamuna', 'saraswati', 'saryu']
+del rivers[2]
+print(rivers)  #// ['ganga', 'yamuna', 'saryu']
+
+
+# remove method:
+rivers = ['ganga', 'yamuna', 'saraswati', 'saryu']
+rivers.remove('yamuna')
+print(rivers)  #// ['ganga', 'saraswati', 'saryu']
+
